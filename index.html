@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 60</title>
+    <link rel="stylesheet" href="./STYLE/style.css">
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HanheldFriendly" content="true" />
+
+    <!-- Meta etiquetas PWA para Apple -->
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-startup-image" href="favicons/favicon_192x192@1x.png" />
+
+    <!-- Configuración General PWA -->
+    <link rel="manifest" href="manifest.json" />
+    
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="favicons/favicon_16x16@1x.png">
+    <link rel="apple-touch-icon" href="favicons/favicon_32x32@1x.png">
+    <link rel="apple-touch-icon" sizes="48x48" href="favicons/favicon_48x48@1x.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="favicons/favicon_96x96@1x.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/favicon_152x152@1x.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/favicon_180x180@1x.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="favicons/favicon_192x192@1x.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="favicons/favicon_512x512@1x.png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="portada">
+            <img class="img" src="./assets/img/sol fondo azul.webp" alt="sol">
+            <h1 class="h1">O TEMPO NO MUNDO
+                <br>
+                by JLG
+            </h1>
+            <img class="img" src="./assets/img/lluvia gif.gif" alt="nube e choiva">
+        </div>
+    </header>
+    <main class="main">
+        <div class="cidades">
+            <button class="boton" onclick="abrirMadrid()">Madrid</button>
+            <button class="boton" onclick="abrirLisboa()">Lisboa</button>
+            <button class="boton" onclick="abrirRoma()">Roma</button>
+            <button class="boton" onclick="abrirAtenas()">Atenas</button>
+            <button class="boton" onclick="abrirBerlin()">Berlin</button>
+            <button class="boton" onclick="abrirBerna()">Berna</button>
+            <button class="boton" onclick="abrirLondres()">Londres</button>
+            <button class="boton" onclick="abrirBruselas()">Bruselas</button>
+            <button class="boton" onclick="abrirAmsterdam()">Amsterdam</button>
+            <button class="boton" onclick="abrirViena()">Viena</button>
+        
+        </div>
+        <!-- <div class="busqueda">
+            <input class="input" type="search" name="buscar" id="buscar" placeholder=" Busca a cidade">
+            <button type="submit">Buscar</button>
+        </div> -->
+
+    </main>
+
+    <section class="section">
+        <div class="section1">
+           <div class="data">
+            <p class="datatexto" id="data"></p>
+           </div>
+
+
+            <div class="gif">
+                <img id="gifImg" src="./assets/img/01d.gif" alt="soleado">
+            </div>
+            <div class="cidade">
+                <img id="cidadeImg" src="./assets/img/madrid.jpg" alt="madrid">
+
+                <p class="p" id="gradosactual"></p>
+                <p id="weatherToday"></p>
+                <h3 id="location"></h3>
+            </div>
+        </div>
+        <div class="sectionmedio">
+            <div class="puesta-sol">
+            <p class="amencer" id="amanecer"></p>
+            <p class="anochecer" id="anoitecer"></p>
+
+            </div>
+           <div id="webcam" class="camara">
+            <a class="camara2" href="https://www.skylinewebcams.com/es/webcam/espana/comunidad-de-madrid/madrid/puerta-del-sol-tio-pepe.html" target="_blank"><img src="https://embed.skylinewebcams.com/img/519.jpg" width="100%" height="100%" alt="【LIVE】 Puerta del Sol - Tío Pepe | SkylineWebcams"></a>
+           </div>
+
+       
+        <div class="section2">
+            <h3 class="temphoy" id="temperatureToday"></h3>
+            <h3 class="tempmaxi" id="tempmax">
+                <br>
+            </h3>
+            <h3 class="tempmini" id="tempmin">
+                <br>
+            </h3>
+            <h3 class="humid" id="humidade">
+                <br>
+            </h3>
+            <h3 class="sensterm" id="sensaciontermica">
+                <br>
+            </h3>
+        </div>
+    </section>
+
+
+
+
+
+<footer>
+    <h4 class="h4footer">Todos os dereitos reservados.JLG 2025</h4>
+</footer>
+
+
+
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
