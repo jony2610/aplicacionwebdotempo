@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+ background: grey;
+ color: black;
+ -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+ font-size: 16px;
+ font-family:'Times New Roman', Times, serif ;
+}
+
+button {
+ cursor: pointer;
+}
+/* Estilos Xerais */
+/* header */
+.portada{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:blue;
+    margin: 15px;
+    padding: 25px;
+    gap: 1rem;
+    border: solid;
+    border-radius: 15px;
+}
+
+.img{
+    width: 250px;
+    height: 150px;
+    background-color:blue;
+}
+
+/* main */
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    border: solid;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 5px;
+    margin: 15px;
+}
+
+.datatexto{
+    text-align: center;
+    font-size: 22px;
+
+}
+
+/* sections */
+
+.section{
+    display: flex;
+border: solid;
+margin: 15px;
+padding: 5px;
+border-radius: 15px;
+background-color: blue;
+
+    justify-content: space-around;
+}
+
+.cidade{
+    text-align: center;
+   
+}
+
+.puesta-sol{
+    margin-bottom: 1rem;
+}
+
+.camara{
+    width: 300px;
+
+}
+
+.camara2{
+        display: flex;
+    justify-content: center;
+}
+
+
+.section1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    gap: 1rem;
+    
+}
+
+.section1 img{
+    width: 600px;
+    border: solid;
+    border-radius: 15px;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    gap: 2rem;
+    width: 300px;
+}
+
+.section2 h3{
+    border: solid;
+    font-size: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    box-shadow: 4px 4px 4px black;
+    padding: 10px;
+}
+
+.sectionmedio{
+    text-align: center;
+
+}
+
+.amencer{
+    border: solid;
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 4px 4px 4px black;
+}
+
+.anochecer{
+    border: solid;
+    margin-top: 35px;
+    font-size: 20px;
+     padding: 10px;
+     background-color: aliceblue;
+     box-shadow: 4px 4px 4px black;
+}
+
+
+
+.p{
+    text-align: center;
+    font-size: 28px;
+    margin: 15px;
+}
+
+/* footer */
+
+.h4footer{
+    text-align: center;
+    font-size: 20px;
+    margin: 15px;
+    border: solid;
+    border-radius: 15px;
+    background-color: blue;
+}
+
+
+.cidades{
+    gap: 1rem;
+    padding: 1px;
+    display: flex;
+ justify-content: space-around;
+}
+
+.boton{
+    border: solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.boton:hover{
+    background-color: yellow;
+    box-shadow: 3px 3px 1px white;
+    width: 90px;
+}
+
+.boton:active{
+    background-color: orange;
+}
+
+.img{
+    border: solid;
+    border-radius: 360px;
+    padding: 10px;
+    background-color:greenyellow;
+}
+
+.h1{
+    color: aliceblue;
+    
+}
+
+
+
+
+
