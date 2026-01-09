@@ -109,7 +109,7 @@ function cambiarCidade(cidade) {
 
         case "Berlin":
             document.getElementById("webcam").innerHTML = `<a href="https://www.skylinewebcams.com/es/webcam/deutschland/hauptstadtregion-berlin-brandenburg/berlin/olympic-stadium.html" target="_blank"><img src="https://embed.skylinewebcams.com/img/3171.jpg" alt="【LIVE】 Berlín - Estadio Olímpico | SkylineWebcams"></a>`
-            document.getElementById("cidadeImg").src = "./assets/img/berliin.jpg"
+            document.getElementById("cidadeImg").src = "./assets/img/berlin.jpg"
         actualizarDatos(52.50,13.09)
             break;
 
@@ -240,3 +240,4 @@ function cambiarGif(gif) {
     }
 
 }
+
